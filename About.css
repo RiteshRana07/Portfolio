@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: wheat;
+}
+
+nav ul li {
+    text-align: right;
+    list-style: none;
+
+}
+
+nav {
+    width: 177px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: relative;
+    left: 1067px;
+    height: 48px;
+    top: 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+    position: relative;
+    right: 66px;
+    top: 10px;
+
+
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.about {
+    height: 526px;
+    width: 310px;
+    background-color: rgb(40, 186, 244);
+    display: inline-block;
+    position: relative;
+    top: 102px;
+    left: 258px;
+}
+
+.about img {
+    height: 210px;
+    position: relative;
+    bottom: 107px;
+    left: 49px;
+
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    bottom: 111px;
+    color: white;
+    font-size: 20px;
+}
+
+.about p {
+    text-align: center;
+    position: relative;
+    bottom: 91px;
+    line-height: 1.6;
+    color: white;
+}
+
+.logo img {
+    height: 35px;
+    top: 91px;
+    left: 76px;
+    justify-content: space-around;
+}
+
+.logo img:hover {
+    transition: transform 1s;
+    transform: scale(1.3);
+}
+
+.write {
+    display: inline-block;
+    height: 526px;
+    width: 478px;
+    /* background-color: red; */
+    position: relative;
+    bottom: 193px;
+    left: 254px;
+}
+
+
+.write h1 {
+    position: relative;
+    left: 43px;
+    font-size: 47px;
+}
+
+.info {
+    position: absolute;
+    left: 43px;
+    line-height: 2;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.contact {
+    position: relative;
+    top: 290px;
+    left: 36px;
+    font-size: 20px;
+    width: 168px;
+    height: 48px;
+}
+
+.write .contact {
+    border: 4px solid rgb(40, 186, 244);
+    border-radius: 34px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 33px
+}
+
+.contact a:hover {
+    color: red;
+}
+
+footer {
+    /* margin: 0;
+    padding: 0; */
+    background-color: grey;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    height: 40px;
+}
+
+.footer {
+    position: relative;
+    top: 7px;
+    font-size: 20px;
+}
